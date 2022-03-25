@@ -1,0 +1,102 @@
+.book{
+    width: 250px;
+    height: 520px;
+    box-sizing: border-box;
+    background-color: rgba(145, 133, 133, 0.219);
+    box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.76);
+    position: relative;
+
+}
+.book img{
+    width: 95%;
+    text-align: center;
+    margin: 5px;
+}
+.info{
+    padding: 0 10px;
+}
+.info h3{
+    margin: 5px 0;
+}
+.info p{
+    margin-top:8px;
+}
+/* @media only screen and (max-width: 600px) {
+    .book{
+        margin: 0 auto;
+    }
+  } */
+/* From cssbuttons.io */
+.noselect{
+    text-align: center;
+}
+.btn-container{
+    width: 80%;
+    margin: 0 auto;
+}
+button {
+    width: 80%;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+    position: absolute;
+    bottom: 5px;
+   }
+   
+   button, button span {
+    transition: 200ms;
+   }
+   
+   button .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+   }
+   
+   button .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+   }
+   
+   button svg {
+    width: 15px;
+    fill: #eee;
+   }
+   
+   button:hover {
+    background: #ff3636;
+   }
+   
+   button:hover .text {
+    color: transparent;
+   }
+   
+   button:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+   }
+   
+   button:focus {
+    outline: none;
+   }
+   
+   button:active .icon svg {
+    transform: scale(0.8);
+   }  
