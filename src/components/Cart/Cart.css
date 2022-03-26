@@ -32,11 +32,8 @@
     padding:5px;
 }
 .lucky{
-    background-color: rgb(60, 60, 221);
+    color:black;
     text-align: center;
-    position: fixed;
-    top:0;
-    left:0;
 }
 @media only screen and (max-width: 600px) {
     .cart{
