@@ -24,7 +24,7 @@ const Cart = ({ cartItems, setCart }) => {
         setIsOpen(false);
     }
     const itemNumber = Math.floor(Math.random() * cartItems.length);
-    const randomItemGenerator = (hi) => {
+    const randomItemGenerator = () => {
         if (cartItems.length == 0) {
             return;
         }
@@ -55,6 +55,7 @@ const Cart = ({ cartItems, setCart }) => {
                     contentLabel="Example Modal"
                 >
                     <div className='lucky'>
+                        <button onClick={closeModal} className='close-btn'>X</button>
                         {luckyItem.name ? title : ""}
                         {luckyItem.img ? image : ""}
                         <h2> {luckyItem.name}</h2>

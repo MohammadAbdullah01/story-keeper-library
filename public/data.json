@@ -49,8 +49,26 @@
     },
     {
         "id": 9,
-        "name": "Thi Goyenda",
+        "name": "Tin Goyenda",
         "price": 141,
         "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/218ac69e2_57847.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Himu",
+        "price": 150,
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/0e743778fca4_1277.gif"
+    },
+    {
+        "id": 11,
+        "name": "Misir Ali",
+        "price": 260,
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/1d3988f5b104_56.gif"
+    },
+    {
+        "id": 12,
+        "name": "From Meditaion to Meditation",
+        "price": 1080,
+        "img": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/ef3e8307b104_144418.jpg"
     }
 ]

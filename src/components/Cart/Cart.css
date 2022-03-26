@@ -30,10 +30,22 @@
 .cart-btn p{
     margin: 0 auto;
     padding:5px;
+    position: relative;
 }
 .lucky{
     color:black;
     text-align: center;
+}
+.close-btn{
+    background-color: #ff3636c9;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding:5px 8px;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 @media only screen and (max-width: 600px) {
     .cart{

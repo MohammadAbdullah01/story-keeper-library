@@ -1,0 +1,16 @@
+.ques-ans{
+    text-align: center;
+    background-color: #ECE1E1;
+    margin: 0 30px;
+    margin-bottom: 30px;
+    color:black;
+    padding:10px 20px;
+}
+.q-a-item{
+    border:1px solid gray;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+padding:0 10px;
+}

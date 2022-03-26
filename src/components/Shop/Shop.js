@@ -26,7 +26,6 @@ const Shop = () => {
         const newCart = [...cart, newCartItem]
         setCart(newCart)
     }
-    // console.log(cart)
     return (
         <div className='shop'>
             <div className="books-container">

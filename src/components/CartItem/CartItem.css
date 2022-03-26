@@ -1,5 +1,8 @@
 .item{
-    background-color: rgba(53, 48, 44, 0.747);
+    /* background-color: rgb(31, 71, 202); */
+    background-color: rgb(236, 225, 225);
+    border: 2px solid gray;
+    color: black;
     padding:5px;
     margin:3px 0;
     display: flex;
