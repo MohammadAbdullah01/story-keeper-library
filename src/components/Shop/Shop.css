@@ -6,8 +6,10 @@
 .books-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
+    grid-column-gap: 40px;
+    grid-row-gap: 25px;
     padding: 0 50px;
+    margin:0 auto;
 }
 .cart{
     background-color: pink;
